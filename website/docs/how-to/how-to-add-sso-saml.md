@@ -10,7 +10,7 @@ title: How to add SSO with SAML 2.0 Okta
 
 ## Introduction {#introduction}
 
-This guide provides a deep dive into Single-Sign-On (SSO) integration with SAML 2.0 and connect it with Okta as IdP. Unleash also supports other identity providers and protocols; explore [all available Single-Sign-On options](../reference/sso.md).
+This guide provides a deep dive into Single-Sign-On (SSO) integration with SAML 2.0 and connect it with Okta as IdP. Unleash also supports other identity providers and protocols; visit our [reference documentation](../reference/sso.md) to explore other options. 
 
 ## Basic configuration
 
