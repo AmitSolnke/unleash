@@ -4,13 +4,13 @@ title: How to add SSO with OpenID Connect
 
 :::note Availability
 
-The **Single-Sign-On capability** is only available for customers on the Enterprise subscription. Check out the [Unleash plans](https://www.getunleash.io/plans) for details.
+**Plan**: [Enterprise](https://www.getunleash.io/plans)
 
 :::
 
 ## Introduction {#introduction}
 
-This guide provides a deep dive into Single-Sign-On (SSO) using the OpenID Connect protocol and connect it with Okta as IdP. Unleash also supports other identity providers and protocols; explore [all available Single-Sign-On options](../reference/sso.md).
+This guide walks you through setting up single sign-on (SSO) using the OpenID Connect protocol, with Okta as the identity provider (IdP). Unleash also supports other identity providers and protocols; visit our [reference documentation](../reference/sso.md) to explore other options. 
 
 ## Basic configuration
 
@@ -23,7 +23,7 @@ In order to configure SSO you will need to log in to the Unleash instance with a
 
 ### Step 2: Navigate to SSO configuration {#step-2}
 
-Unleash enterprise supports multiple authentication providers, and we provide in depth guides for each of them. To find them navigate to "Admin" => "Single-Sign-On" section.
+Unleash enterprise supports multiple authentication providers, and we provide in depth guides for each of them. To find them navigate to **Admin > Single sign-on**.
 
 ![admin-authentication](/img/sso-oidc.png)
 

@@ -4,8 +4,7 @@ title: How to add SSO with SAML 2.0 Okta
 
 :::note Availability
 
-The **Single-Sign-On capability** is only available for customers on the Enterprise subscription. Check out
-the [Unleash plans](https://www.getunleash.io/plans) for details.
+**Plan**: [Enterprise](https://www.getunleash.io/plans)
 
 :::
 
@@ -25,8 +24,7 @@ self-hosting Unleash then a default user will be automatically created the first
 
 ### Step 2: Navigate to SSO configuration {#step-2}
 
-In order to configure SSO with SAML with your Unleash enterprise you should navigate to the Single-Sign-On configuration
-section and choose the "SAML 2.0" tab.
+To configure SSO with SAML in your Unleash enterprise instance, go to **Admin > Single sign-on** and select **SAML 2.0**.
 
 ![sso-config](/img/sso-configure-saml.png)
 
@@ -176,7 +174,7 @@ You'll need the following variables at the very least
 |-----------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------| 
 | SAML_ENABLED          | Tells unleash that you want to use environment variable configuration and turns on support for SAML login | Yes                                      | true / false            |
 | SAML_ENTITY_ID        | The SAML 2.0 entity ID                                                                                    | Yes                                      | Strings                 |
-| SAML_SIGNON_URL       | Which URL to use for redirecting Single Sign on requests                                                  | Yes                                      | Valid url               |
+| SAML_SIGNON_URL       | Which URL to use for redirecting single sign-on requests                                                  | Yes                                      | Valid url               |
 | SAML_CERTIFICATE_FILE | An absolute path to read the X509 certificate from                                                        | Only if SAML_CERTIFICATE is not set      | Absolute file paths     |
 | SAML_CERTIFICATE      | The X509 certificate as a string                                                                          | Only if SAML_CERTIFICATE_FILE is not set | X509 certificate string |
 

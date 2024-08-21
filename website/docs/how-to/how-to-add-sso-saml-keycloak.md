@@ -4,13 +4,13 @@ title: How to add SSO with SAML 2.0 Keycloak
 
 :::note Availability
 
-The **Single-Sign-On capability** is only available for customers on the Enterprise subscription. Check out the [Unleash plans](https://www.getunleash.io/plans) for details.
+**Plan**: [Enterprise](https://www.getunleash.io/plans)
 
 :::
 
 ## Introduction {#introduction}
 
-This guide provides a deep dive into Single-Sign-On (SSO) integration with SAML 2.0 and connect it with Keycloak as IdP. Unleash also supports other identity providers and protocols; explore [all available Single-Sign-On options](../reference/sso.md).
+This guide walks you through setting up single sign-on (SSO) using SAML 2.0, with Keycloak as the identity provider (IdP). Unleash also supports other identity providers and protocols; explore [all available Single-Sign-On options](../reference/sso.md).
 
 ## Basic configuration
 
@@ -23,7 +23,7 @@ In order to configure SSO you will need to log in to the Unleash instance with a
 
 ### Step 2: Navigate to SSO configuration {#step-2}
 
-In order to configure SSO with SAML with your Unleash enterprise you should navigate to the Single-Sign-On configuration section and choose the "SAML 2.0" tab.
+In order to configure SSO with SAML with your Unleash enterprise you should navigate to the single sign-on configuration section and choose the "SAML 2.0" tab.
 
 ![sso-config](/img/sso-configure-saml.png)
 

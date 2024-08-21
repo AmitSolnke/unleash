@@ -249,14 +249,14 @@ user will inherit most permissive permissions of all their groups in that projec
 
 :::info availability
 
-User group syncing is an enterprise feature available from Unleash 4.18 onwards.
+**Plan**: [Enterprise](https://www.getunleash.io/pricing) | **Version**: Unleash 4.18+.
 
 
 :::
 
-User groups also support integration with your Single Sign-On (SSO) provider. This allows you to automatically assign
-users to groups when they log in through SSO. Check out [_how to set up group SSO
-sync_](../how-to/how-to-set-up-group-sso-sync.md) for a step-by-step walkthrough.
+User groups also support integration with your single sign-on (SSO) provider. This allows you to automatically assign
+users to groups when they log in through SSO. Check out [How to set up group SSO
+sync](../how-to/how-to-set-up-group-sso-sync.md) for a step-by-step walkthrough.
 
 Users that have been added to a group through your SSO provider will be automatically removed next time they log in if
 they've been removed from the SSO group. Users that have been manually added to the group will not be affected.
