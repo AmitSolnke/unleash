@@ -6,7 +6,7 @@ There are lots of options to get started with Unleash. If you're comfortable wit
 
 ## 1. Set up Unleash with Docker {#setup-unleash-docker}
 
-The easiest way to run Unleash locally is using git and [docker](https://www.docker.com/).
+The easiest way to run Unleash locally is using Git and [Docker](https://www.docker.com/).
 
 ```sh
 git clone git@github.com:Unleash/unleash.git

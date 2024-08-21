@@ -11,7 +11,7 @@ Unleash Enterprise supports SAML 2.0, OpenID Connect and Google Authentication. 
 
 ### Before you start
 
-In order to configure single sign-on you will need to log in to the Unleash instance with a user that have Admin role. If you are self-hosting Unleash then a default user will be automatically created the first time you start unleash:
+To configure single sign-on, log in to the Unleash instance with a user that has an Admin role. If you are self-hosting, then a default user will be automatically created the first time you start Unleash:
 
 - username: `admin`
 - password: `unleash4all` _(or `admin` if you started with Unleash v3)._

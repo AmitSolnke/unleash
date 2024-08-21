@@ -80,7 +80,7 @@ You'll need to configure Edge and the SDKs.
 
 ### On Unleash
 
-- Create one or more[client API tokens](https://docs.getunleash.io/reference/api-tokens-and-client-keys#client-tokens) scoped to the projects/environments you wish to use the Edge instance for. Refer to [how to create API tokens](https://docs.getunleash.io/how-to/how-to-create-api-tokens) for the steps to create one.
+- Create one or more [client API tokens](https://docs.getunleash.io/reference/api-tokens-and-client-keys#client-tokens) scoped to the projects/environments you wish to use the Edge instance for. Refer to [how to create API tokens](https://docs.getunleash.io/how-to/how-to-create-api-tokens) for the steps to create one.
 - Create frontend tokens for the frontend apps that will retrieve feature flags from Edge.
 
 ### On Edge
@@ -93,12 +93,13 @@ It will then accept frontend or backend tokens from application SDKs.
 
 Make sure to use the correct token type for your use case:
 
-	- Frontend API: Use for frontend-facing apps; Edge returns application-specific context.
-	- Client API: Use for backend SDKs; Edge returns the entire flag payload for the scope of the token (project/environment).
+- Frontend API: Use for frontend-facing apps; Edge returns application-specific context.
+- Client API: Use for backend SDKs; Edge returns the entire flag payload for the scope of the token (project/environment).
 
 :::
 
-**Start Edge and populate flag cache**
+#### Start Edge and populate flag cache
+
 This initial command will populate the flag cache on startup using the client token specified in the environment variable:
 
 ```docker run -p 3063:3063 -e TOKENS='CLIENT_API_TOKEN' -e UPSTREAM_URL='UPSTREAM_URL' unleashorg/unleash-edge:v8.1 edge```

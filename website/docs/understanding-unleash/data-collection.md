@@ -33,7 +33,7 @@ Unleash does not collect personally identifiable information (PII).
 ## Managing data collection settings
 We understand that privacy preferences may vary among our users. While the data collected by Unleash is limited and anonymous, we provide options to manage data collection settings:
 
-**Disabling All Telemetry**: If you have previously disabled the version telemetry by setting the environment variable `CHECK_VERSION` to anything other than `true`, `t`, or `1` both the version telemetry and the feature telemetry will be disabled. This respects your choice to opt out of all telemetry data if you had previously disabled it.
+**Disabling All Telemetry**: If you have previously disabled the version telemetry by setting the environment variable `CHECK_VERSION` to anything other than `true`, `t`, or `1`, then both the version telemetry and the feature telemetry will be disabled. This respects your choice to opt out of all telemetry data if you had previously disabled it.
 
 **Turning Off Feature Telemetry**: To disable the collection of the new telemetry data while still allowing the version telemetry, set the environment variable `SEND_TELEMETRY` to anything other than  `true`, `t`, or `1` before starting Unleash. This will ensure that the new telemetry data is not sent, but the version information is still sent.
 

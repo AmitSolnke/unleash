@@ -8,17 +8,11 @@ This guide outlines Best Practices for feature flag migrations. Approaching the 
 
 Based on our work with organizations having millions of flags and thousands of users, there are five phases of a feature flag migration:
 
-- [Defining the scope of the feature flag migration](#defining-the-scope-of-the-feature-flag-migration)
-  - [1- Separate the migration of old flags from the existing system from new flags created in Unleash.](#1--separate-the-migration-of-old-flags-from-the-existing-system-from-new-flags-created-in-unleash)
-  - [2- Do not make end-to-end app modernization a dependency of your feature flag migration](#2--do-not-make-end-to-end-app-modernization-a-dependency-of-your-feature-flag-migration)
-- [Make the business case for feature flag migration](#make-the-business-case-for-feature-flag-migration)
-- [Planning Feature Flag Migration](#planning-feature-flag-migration)
-  - [Use Cases](#use-cases)
-  - [Key stakeholders](#key-stakeholders)
-  - [How is our current feature flag architecture set up?](#how-is-our-current-feature-flag-architecture-set-up)
-  - [Security and organizational policy requirements](#security-and-organizational-policy-requirements)
-- [Migration Execution](#migration-execution)
-- [Onboarding users](#onboarding-users)
+1.  [Defining the scope of the feature flag migration](#defining-the-scope-of-the-feature-flag-migration)
+2.  [Make the business case for feature flag migration](#make-the-business-case-for-feature-flag-migration)
+3.  [Planning Feature Flag Migration](#planning-feature-flag-migration)
+4.  [Migration Execution](#migration-execution)
+5.  [Onboarding users](#onboarding-users)
 
 This guide provides a summary of each topic as well as a detailed [Feature Flag Migration template](https://docs.google.com/spreadsheets/d/1MKc95v7Tc-9tznWMDVSy2vvmVJTvOFLRVZpx1QrL-_U/edit#gid=996250264) that you can use to plan your migration.
 
@@ -42,7 +36,7 @@ In parallel, the second track:
 
 ### 2- Do not make end-to-end app modernization a dependency of your feature flag migration
 
-Organizations that adopt feature flags see improvements in all key operational metrics for DevOps: Lead time to changes, mean-time-to-recovery, deployment frequency, and change failure rate. So it is natural as part of a feature flag migration to also improve other parts of the software development lifecycle. From the perspective of feature flag migration, this is a mistake.
+Organizations that adopt feature flags see improvements in all key operational metrics for DevOps: lead time to changes, mean-time-to-recovery, deployment frequency, and change failure rate. So it is natural as part of a feature flag migration to also improve other parts of the software development lifecycle. From the perspective of feature flag migration, this is a mistake.
 
 Making feature flag migration dependent on breaking down mission-critical monolithic applications into microservices, for example, will slow down your feature flag migration.
 
@@ -58,7 +52,7 @@ When building a business case, you want to be clear on what pain the feature fla
 
 To structure your thinking, ask yourself:
 
--   What practices related to feature deployments, debugging and rollbacks are overburdening teams today and driving down productivity?
+-   What practices related to feature deployments, debugging, and rollbacks are overburdening teams today and driving down productivity?
 -   What specific deficiencies are there in the current platform?
 -   What business outcomes are you looking to drive?
 -   After the migration, what does "better" look like?

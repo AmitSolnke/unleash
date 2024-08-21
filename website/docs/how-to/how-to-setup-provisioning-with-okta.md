@@ -12,7 +12,7 @@ The **Provisioning capability** is only available for customers on the Enterpris
 
 ### Step 1: Navigate to Provisioning configuration {#unleash-setup-step-1}
 
-First you'll need to log in to Unleash as an admin user. Navigate to the Single Sign-On section and select the "SCIM" tab. The SCIM API URL will be shown in this section, you'll need this to configure Okta later.
+First you'll need to log in to Unleash as an admin user. Go to **Admin > Single sign-on** and select the **SCIM** tab. The SCIM API URL will be shown in this section, you'll need this to configure Okta later.
 
 ![Navigate to the SCIM Config](/img/scim-config-1.png)
 
